@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MZK API</string>
+    <string name="OK">OK</string>
+    <string name="dot">"\t" "\t"·</string>
+    <string name="plus">+</string>
+    <string name="Email">E-mail</string>
+    <string name="ConnectionInfo">Brak połączenia internetowego :( Sprawdź swoje połączenie, a następnie wciśnij przycisk aby uruchomić aplikację\n\nNo internet connection :( Check your connection then click button underneath to start an app</string>
+
+    <string name="LanguageEnglish">ENGLISH</string>
+
+         <string name="ToolbarTitleENG">Set your journey</string>
+         <string name="StartPlaceTextViewENG">Select your start place</string>
+         <string name="FinalPlaceTextViewENG">Select your final place</string>
+         <string name="GPSLocationENG">Your GPS location</string>
+         <string name="FindingGPSENG">Searching for GPS coordinates...</string>
+         <string name="DateENG">Date:</string>
+         <string name="HourENG">Hour:</string>
+         <string name="UsernameENG">User name</string>
+         <string name="PasswordENG">Password</string>
+            <string name="PasswordAgainENG">Confirm Password</string>
+         <string name="LoginENG">Log in</string>
+            <string name="CreateAccountENG">Create Account</string>
+            <string name="GoBackENG">Go Back</string>
+         <string name="RegisterENG"><u>You have no account? Register!</u></string>
+         <string name="SetDepartureTimeENG">Set departure time:</string>
+         <string name="SetDepartureDateENG">Set departure date:</string>
+         <string name="FindRouteENG">Find route</string>
+
+         <string name="FieldNotFilledErrENG">Make sure that all necessary fields are filled</string>
+         <string name="DifferentPasswordsErrENG">Inserted password are different!</string>
+         <string name="TooShortPasswordErrENG">Password is too short (minimum 5 characters)</string>
+         <string name="InternetConnectionErrENG">Connection problem (fail) has occurred</string>
+         <string name="InternetConnectionProblemErrENG">Something went wrong... Check internet connection!</string>
+
+         <string name="noRouteENG">No bus line for that route and time. Maybe take a walk? :)</string>
+         <string name="onFootENG">On Foot</string>
+         <string name="onFootTimeENG">Travel time:   </string>
+            <string name="DepartureStationENG"><u>Take this bus stop: </u></string>
+            <string name="ArrivalStationENG"><u>Get off at: </u></string>
+            <string name="betweenStationsENG"><u>Pass those stations: </u></string>
+            <string name="ShowOnMapENG">Show On Map</string>
+                <string name="StartLocationENG">Start Location</string>
+                <string name="FinalLocationENG">Final Location</string>
+                <string name="DepartureENG">Departure</string>
+                <string name="ArrivalENG">Arrival</string>
+                <string name="PassStationsENG">Pass those stations:</string>
+                <string name="FromStartWalkENG">Walk to the station</string>
+                <string name="ToFinishWalkENG">Walk to your destination</string>
+
+
+
+
+    <string name="locationNameLabel">Wojska Polskiego 12</string>
+
+
+
+
+
+    <string name="LanguagePolski">POLSKI</string>
+
+         <string name="ToolbarTitlePL">Ustaw swoją trasę</string>
+         <string name="StartPlaceTextViewPL">Wybierz miejsce startowe</string>
+         <string name="FinalPlaceTextViewPL">Wybierz miejsce końcowe</string>
+         <string name="GPSLocationPL">Twoje położenie GPS</string>
+         <string name="FindingGPSPL">Wyszukiwanie położenia GPS...</string>
+         <string name="DatePL">Data:</string>
+         <string name="HourPL">Godzina:</string>
+         <string name="UsernamePL">Nazwa użytkownika</string>
+         <string name="PasswordPL">Hasło</string>
+            <string name="PasswordAgainPL">Potwierdź Hasło</string>
+         <string name="LoginPL">Zaloguj</string>
+            <string name="CreateAccountPL">Utwórz Konto</string>
+            <string name="GoBackPL">Wróć</string>
+         <string name="RegisterPL"><u>Nie masz konta? Zarejestruj się!</u></string>
+         <string name="SetDepartureTimePL">Podaj czas wyjazdu:</string>
+         <string name="SetDepartureDatePL">Podaj datę wyjazdu:</string>
+         <string name="FindRoutePL">Znajdź trasę</string>
+
+         <string name="FieldNotFilledErrPL">Upewnij się, że wszystkie wymagane pola są wypełnione</string>
+         <string name="DifferentPasswordsErrPL">Wpisane hasła różnią się od siebie!</string>
+         <string name="TooShortPasswordErrPL">Hasło zbyt krótkie (minimum 5 znaków)</string>
+         <string name="InternetConnectionErrPL">Wystąpił problem z połączeniem sieciowym</string>
+         <string name="InternetConnectionProblemErrPL">Coś poszło nie tak... Sprawdź połączenie internetowe</string>
+
+         <string name="noRoutePL">Brak linii autobusowej na daną trasę i czas. Może lepiej będzie się przejść? :)</string>
+         <string name="onFootPL">Piechotą</string>
+         <string name="onFootTimePL">Czas podróży:  </string>
+            <string name="DepartureStationPL"><u>Wsiądź na: </u></string>
+            <string name="ArrivalStationPL"><u>Wysiądź na: </u></string>
+            <string name="betweenStationsPL"><u>Pomiń te przystanki: </u></string>
+            <string name="ShowOnMapPL">Pokaż na mapie</string>
+                 <string name="StartLocationPL">Miejsce startowe</string>
+                 <string name="FinalLocationPL">Miejsce końcowe</string>
+                 <string name="DeparturePL">Odjazd: </string>
+                 <string name="ArrivalPL">Przyjazd: </string>
+                 <string name="PassStationsPL">Pomiń te przystanki:</string>
+                 <string name="FromStartWalkPL">Podejdź na przystanek</string>
+                 <string name="ToFinishWalkPL">Idź do miejsca docelowego</string>
+
+
+
+
+    <string name="hours_prompt">Choose an hour</string>
+
+    <string-array name="hours">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string name="minutes_prompt">Choose an hour</string>
+    <string name="TimeSelectENG">Select Your Departure Time</string>
+    <string name="SelectDepartureDateENG">Select your departure date</string>
+    <string name="SetTimeDateENG">Set time and date</string>
+    <string name="DepartureTimeDateSetEng">Set departure time and date</string>
+
+    <string-array name="minutes">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+
+
+
+
+</resources>

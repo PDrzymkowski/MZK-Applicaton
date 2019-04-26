@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueToolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/goBackBtn"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="265dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/noticia_text"
+                android:text="123123"
+                android:textColor="@color/blueToolbar"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="394dp"
+            android:dividerPadding="5dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="@font/noticia_text"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="8dp"
+                android:paddingLeft="9dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="@font/noticia_text"
+                android:hint="haslo"
+                android:inputType="textPassword"
+                android:paddingBottom="8dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passwordAgainEditText"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="@font/noticia_text"
+                android:hint="powtorz haslo"
+                android:inputType="textPassword"
+                android:paddingBottom="8dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/noticia_text"
+                android:textColor="@color/blueToolbar"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

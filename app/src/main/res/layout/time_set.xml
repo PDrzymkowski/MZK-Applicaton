@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Spinner
+        android:id="@+id/minuteSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginTop="49dp"
+        android:layout_weight="1"
+        android:entries="@array/minutes"
+        android:prompt="@string/minutes_prompt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hourSpinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/hourSpinner"
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="77dp"
+        android:layout_weight="1"
+        android:entries="@array/hours"
+        android:prompt="@string/hours_prompt"
+        app:layout_constraintBaseline_toBaselineOf="@+id/minuteSpinner"
+        app:layout_constraintEnd_toStartOf="@+id/minuteSpinner"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
